@@ -1,5 +1,13 @@
+import Wrapper from './components/Wrapper';
+
 function App() {
-    return <h1>Hello World</h1>;
+    return (
+        <div className="app">
+            <h1>
+                <Wrapper>Hello World</Wrapper>
+            </h1>
+        </div>
+    );
 }
 
 export default App;

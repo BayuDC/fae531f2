@@ -3,5 +3,18 @@
   "version": "1.0.0",
   "description": "A simple todo list app",
   "author": "BayuDC",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/core": "^2.4.0",
+    "@parcel/transformer-less": "2.4.0",
+    "parcel": "^2.4.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
 }

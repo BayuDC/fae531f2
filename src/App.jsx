@@ -1,11 +1,12 @@
 import Wrapper from './components/Wrapper';
+import Title from './components/Title';
 
 function App() {
     return (
         <div className="app">
-            <h1>
-                <Wrapper>Hello World</Wrapper>
-            </h1>
+            <Wrapper>
+                <Title>Todo List</Title>
+            </Wrapper>
         </div>
     );
 }
